@@ -103,7 +103,7 @@ class App {
     navigator.geolocation?.getCurrentPosition(
       this._loadMap.bind(this),
       function () {
-        alert("Could't Get Your Position");
+        alert("We Could't Get Your Position, Allow this site to access your location");
       }
     );
   }
